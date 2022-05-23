@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: heap.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.07 s <<< FAILURE! - in heap.AppTest
+testMaxHeap_first(heap.AppTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: expected:<84> but was:<5>
+	at heap.AppTest.testMaxHeap_first(AppTest.java:44)
+
+testMaxHeap_second(heap.AppTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected:<94> but was:<5>
+	at heap.AppTest.testMaxHeap_second(AppTest.java:62)
+
+testMaxHeap_position(heap.AppTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<84> but was:<3>
+	at heap.AppTest.testMaxHeap_position(AppTest.java:81)
+
